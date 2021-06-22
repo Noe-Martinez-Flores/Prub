@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Operaciones Artimeticas</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/boostrap.min.css">
+        <link rel="shortcut icon" href="../assets/img/LogoCalculator.png" type="image/x-icon">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <figure>
+                        <img class="img-fluid" width="50" height="50" src="../assets/img/LogotipoPlazaSolaz.png" />
+                    </figure>
+                </a>
+                <a class="navbar-brand" href=".#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#about">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#contact">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noé Martínez Flores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../screen/learndiv.html">Aprende Div</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../screen/learnbootstrap.html">Aprende boostrap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./screen/pokemon.html" target="_blank">pokemon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./screen/learnJavaScript.html" target="_blank">Aprende JavaScript</a>
+                        </li>
+                       
+    
+    
+                    </ul>
+                    <form class="d-flex">
+    
+                        <button class="btn btn-outline-success text-right" type="submit">Noé Martinez Flores</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section id="Operation+">
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <form action="" role="form">
+                                <div class="form-group">
+                                    <h2>Operacion de SUMA</h2>
+                                    <label > Ingrese Su Primer Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="sum1" name="sum" class="form-control">
+                                    <label > Ingrese Su Segundo  Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="sum2" name="sum" class="form-control">
+                                </div>
+                                <div class="text-right">
+                                    <button type="button" class="btn btn-outline-primary" onclick="resultSum()"> = </button>
+                                </div>
+                                <hr class="bg-success">
+                                <div class="form-group">
+                                    <h2>Operacion de Resta</h2>
+                                    <label > Ingrese Su Primer Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="subtraction1" name="subtraction" class="form-control">
+                                    <label > Ingrese Su Segundo  Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="subtraction2" name="subtraction" class="form-control">
+                                </div>
+                                <div class="text-right">
+                                    <button type="button" class="btn btn-outline-primary" onclick="resultSubtraction()"> = </button>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <h2>Operacion de MULTIPLICACION</h2>
+                                    <label > Ingrese Su Primer Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="multiplication1" name="multiplication" class="form-control">
+                                    <label > Ingrese Su Segundo  Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="multiplication2" name="multiplication" class="form-control">
+                                </div>
+                                <div class="text-right">
+                                    <button type="button" class="btn btn-outline-primary" onclick="resultMultiplication()"> = </button>
+                                </div>
+                                <hr >
+                                <div class="form-group">
+                                    <h2>Operacion de DIVISION</h2>
+                                    <label > Ingrese Su Primer Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="division1" name="division" class="form-control">
+                                    <label > Ingrese Su Segundo  Numero: <i class="text-danger">*</i></label>
+                                    <input type="number" id="division2" name="division" class="form-control">
+                                </div>
+                                <div class="text-right">
+                                    <button type="button" class="btn btn-outline-primary" onclick="resultDivision()"> = </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <script src="../js/OperacionesAritmeticas.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+.gradiantVoladorDragon{
+    background: rgb(155, 157, 157);
+    background: linear-gradient(0deg, rgba(155,157,157,1) 46%, rgba(32,226,220,1) 99%);
+}
+
+.gradiantTierra {
+    background: rgb(171,152,66);
+    background: linear-gradient(0deg, rgba(171,152,66,1) 40%, rgba(247,222,63,1) 50%);
+}
